@@ -262,3 +262,77 @@ tr:nth-child(even) {
 }
 
 /**********End Mid************/
+
+/***********Large*************/
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	height: 1000px;
+	grid-gap: 10px;
+	margin: 0 auto;
+
+	grid-template-areas: 
+		"nav nav"
+		"voertuiginfo voertuigomgeving"
+		"voorraden temperatuur"
+		"personen personen"
+		"foot foot";
+}
+
+.box1 {
+	grid-area: nav;
+	padding: 48px;
+}
+
+.logo {
+	visibility: visible;
+	height: 25px;
+	position: absolute;
+}
+
+.logoX {
+	visibility: hidden;
+	height: 25px;
+	position: absolute;
+}
+
+.box2 {
+	grid-area: voertuiginfo;
+	margin: 0;
+	padding: 48px;
+}
+
+.box3 {
+	grid-area: voorraden;
+	margin: 0;
+	padding: 48px;
+}
+
+.box4 {
+	grid-area: voertuigomgeving;
+	margin: 0;
+	padding: 48px;
+}
+
+.box5 {
+	grid-area: foot;
+	padding: 48px;
+}
+
+.box6 {
+	grid-area: personen;
+	margin: 0;
+	padding: 48px;
+}
+
+.box7 {
+	grid-area: temperatuur;
+	margin: 0;
+	padding: 48px;
+}
+
+}
+/*********End Large***********/
