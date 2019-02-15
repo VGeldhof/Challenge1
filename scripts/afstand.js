@@ -5,7 +5,7 @@ var myChart = new Chart(ctx, {
         labels: ["11/2", "12/2", "13/2", "14/2", "15/2", "16/2", "17/2"],
         datasets: [{
             label: 'Afstand afgelegd per dag',
-            data: [50, 45, 30, 25, 20, 15, 10],
+            data: [50, 48, 51, 20, 51, 45, 55],
             backgroundColor: [
                 'rgb(0, 82, 136, 0.5)',
                 'rgb(0, 82, 136, 0.5)',
