@@ -347,6 +347,7 @@ tr:nth-child(even) {
 	height: 1000px;
 	grid-gap: 10px;
 	margin: 0 auto;
+	max-width: 2000px;
 
 	grid-template-areas: 
 		"nav nav nav"
