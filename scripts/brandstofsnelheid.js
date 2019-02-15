@@ -4,7 +4,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ["11/2", "12/2", "13/2", "14/2", "15/2", "16/2", "17/2"],
         datasets: [{
-            label: 'Snelheid (x1000km/u)',
+            label: 'Snelheid (x10000km/u)',
             data: [12, 12.4, 11.9, 10, 11.6, 12.1, 12.4],
             backgroundColor: [
                 'rgb(214, 238, 255, 0.5)',
