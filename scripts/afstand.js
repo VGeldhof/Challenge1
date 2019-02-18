@@ -9,13 +9,13 @@ var myChart = new Chart(ctx, {
             label: 'Afstand afgelegd per dag',
             data: afstand,
             backgroundColor: [
-                'rgb(0, 82, 136, 0.5)',
-                'rgb(0, 82, 136, 0.5)',
-                'rgb(0, 82, 136, 0.5)',
-                'rgb(0, 82, 136, 0.5)',
-                'rgb(0, 82, 136, 0.5)',
-                'rgb(0, 82, 136, 0.5)',
-                'rgb(0, 82, 136, 0.5)',
+                'rgba(0, 82, 136, 0.5)',
+                'rgba(0, 82, 136, 0.5)',
+                'rgba(0, 82, 136, 0.5)',
+                'rgba(0, 82, 136, 0.5)',
+                'rgba(0, 82, 136, 0.5)',
+                'rgba(0, 82, 136, 0.5)',
+                'rgba(0, 82, 136, 0.5)',
 
             ],
             borderColor: [

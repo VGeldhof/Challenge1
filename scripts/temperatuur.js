@@ -9,8 +9,8 @@ var myChart = new Chart(ctx, {
             label: 'Temperatuur',
             data: temperatuur,
             backgroundColor: [
-                'rgb(0, 85, 160, 0.5)',
-                'rgb(5, 137, 255, 0.1)',
+                'rgba(0, 85, 160, 0.5)',
+                'rgba(5, 137, 255, 0.1)',
             ],
             borderColor: [
                 'rgb(0, 82, 136)',
@@ -18,8 +18,8 @@ var myChart = new Chart(ctx, {
             ],
             borderWidth: 1,
             hoverBorderColor: [
-                'rgb(214, 238, 255, 0.5)',
-                'rgb(63, 111, 145, 0.5)',
+                'rgba(214, 238, 255, 0.5)',
+                'rgba(63, 111, 145, 0.5)',
             ],
             hoverBorderWidth: 5
 

@@ -10,7 +10,7 @@ var myChart = new Chart(ctx, {
             label: 'Snelheid (x10000km/u)',
             data: snelheid,
             backgroundColor: [
-                'rgb(214, 238, 255, 0.5)',
+                'rgba(214, 238, 255, 0.5)',
             ],
             borderColor: [
                 'rgb(0, 82, 136)',
@@ -23,7 +23,7 @@ var myChart = new Chart(ctx, {
             label: 'Brandstof (liter)',
             data: brandstof,
             backgroundColor: [
-                'rgb(0, 82, 136, 0.5)',
+                'rgba(0, 82, 136, 0.5)',
             ],
             borderColor: [
                 'rgb(214, 238, 255)',
