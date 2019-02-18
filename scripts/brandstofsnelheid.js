@@ -38,7 +38,7 @@ var myChart = new Chart(ctx, {
     options: {
         scales: {
             xAxes: [{
-                display: true,
+                // display: true,
                 scaleLabel: {
                     display: true,
                     labelString: 'Datum'
@@ -49,7 +49,7 @@ var myChart = new Chart(ctx, {
                 ticks: {
                     beginAtZero: false
                 },
-                display: true,
+                // display: true,
                 scaleLabel: {
                     display: true,
                     labelString: ''
