@@ -1,11 +1,13 @@
 var ctx = document.getElementById("myChartAfstand").getContext('2d');
+var afstand = [50, 48, 51, 20, 51, 45, 55];
+
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
         labels: ["11/2", "12/2", "13/2", "14/2", "15/2", "16/2", "17/2"],
         datasets: [{
             label: 'Afstand afgelegd per dag',
-            data: [50, 48, 51, 20, 51, 45, 55],
+            data: afstand,
             backgroundColor: [
                 'rgb(0, 82, 136, 0.5)',
                 'rgb(0, 82, 136, 0.5)',
@@ -31,7 +33,7 @@ var myChart = new Chart(ctx, {
     options: {
         scales: {
             xAxes: [{
-                display: true,
+                // display: true,
                 scaleLabel: {
                     display: true,
                     labelString: 'Datum'
@@ -42,7 +44,7 @@ var myChart = new Chart(ctx, {
                 ticks: {
                     beginAtZero: true
                 },
-                display: true,
+                // display: true,
                 scaleLabel: {
                     display: true,
                     labelString: 'x10000 km'
